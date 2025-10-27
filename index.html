@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Store</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
-    <h1>Hello, World!</h1>
-    <p>This is a sample HTML document.</p>
-<main>
-    <header>
-        <h1>MY STORE</h1>
-        <p>offer <span id="offer">10%</span> OFF!</p>
-    </header>
-</main>
-    
+  <header class="header">
+    <h1>🛍️ My Store</h1>
+    <p class="offer-text">Exclusive Offer: <span id="offer">10%</span> OFF Today!</p>
+  </header>
+
+  <main class="main">
+    <section class="products">
+      <h2>Featured Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/150" alt="Product 1">
+          <h3>Product 1</h3>
+          <p>₹499</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="https://via.placeholder.com/150" alt="Product 2">
+          <h3>Product 2</h3>
+          <p>₹699</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 My Store | All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
